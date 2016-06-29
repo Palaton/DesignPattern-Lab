@@ -1,0 +1,11 @@
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\bin\Debug\WinFormMVP.exe
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\bin\Debug\WinFormMVP.pdb
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.Form1.resources
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.Properties.Resources.resources
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.csproj.GenerateResource.Cache
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.exe
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.pdb
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.View.UserAddView.resources
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.View.UserListView.resources
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\obj\x86\Debug\WinFormMVP.csprojResolveAssemblyReference.cache
+D:\MyZone\Data\Develop\Code\WinFormMVP\WinFormMVP\bin\Debug\MVP.Example.WinForm.exe.config

@@ -1,0 +1,11 @@
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\bin\Debug\MVP.Example.WinForm.exe.config
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.csprojResolveAssemblyReference.cache
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.Form1.resources
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.Properties.Resources.resources
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.View.UserAddView.resources
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.View.UserListView.resources
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.csproj.GenerateResource.Cache
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\bin\Debug\MVP.Example.WinForm.exe
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\bin\Debug\MVP.Example.WinForm.pdb
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.exe
+D:\MyZone\Data\Develop\Code\MVP.Example.WinForm\MVP.Example.WinForm\obj\x86\Debug\MVP.Example.WinForm.pdb
