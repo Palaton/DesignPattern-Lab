@@ -20,7 +20,7 @@ namespace MVP.Example.WinForm.View
         {
             this.dataGridView1.DataSource = null;
             this.dataGridView1.DataSource = users;
-            Presenter.ShowUsers(users);
+            //Presenter.ShowUsers(users);
         }
 
         public void ShowUser(User user)
@@ -28,7 +28,7 @@ namespace MVP.Example.WinForm.View
             int rowIndex=this.dataGridView1.Rows.Add();
             this.dataGridView1.Rows[rowIndex].Cells[0].Value = user.Name;
             this.dataGridView1.Rows[rowIndex].Cells[1].Value = user.Age;
-            Presenter.ShowUser(user);
+            //Presenter.ShowUser(user);
         }
     }
 }

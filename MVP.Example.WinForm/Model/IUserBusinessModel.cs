@@ -6,7 +6,7 @@ using MVP.Example.WinForm.Model.Entity;
 
 namespace MVP.Example.WinForm.Model
 {
-    public interface IUserModel
+    public interface IUserBusinessModel
     {
         void AddItem(User user);
 

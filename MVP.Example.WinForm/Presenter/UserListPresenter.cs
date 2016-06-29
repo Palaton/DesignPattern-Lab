@@ -9,17 +9,15 @@ namespace MVP.Example.WinForm.Presenter
 {
     public class UserListPresenter : IUserListPresenter
     {
-        private readonly IUserModel model;
+        private readonly IUserBusinessModel model;
         private readonly IUserListView view;
 
-        public UserListPresenter(IUserModel model, IUserListView view)
+        public UserListPresenter(IUserBusinessModel model, IUserListView view)
         {
             this.model = model;
             this.view = view;
             this.view.Presenter = this;
         }
-
-        public event RefreshViewHandler RefreshViewEvent;
 
         public void ResponseNotification(string message)
         {
@@ -28,18 +26,23 @@ namespace MVP.Example.WinForm.Presenter
         public void ShowUsers(List<User> users)
         {
             view.ShowUsers(users);
-            RefreshViewEvent(this, new PresenterRereshViewEventArgument()
-            {
-                Data = users
-            });
+            OnListUsersFinish(this, users);
         }
 
         public void ShowUser(User user)
         {
-            RefreshViewEvent(this, new PresenterRereshViewEventArgument()
-            {
-                Data = user
-            });
+            view.ShowUser(user);
+            OnListUserFinish(this,user);
+        }
+
+        public void OnListUserFinish(IUserListPresenter sender, User user)
+        {
+            ;
+        }
+
+        public void OnListUsersFinish(IUserListPresenter sender, List<User> users)
+        {
+            ;
         }
     }
 }

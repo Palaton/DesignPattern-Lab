@@ -15,7 +15,7 @@ namespace MVP.Example.WinForm
 {
     public partial class Form1 : Form
     {
-        private IUserModel userModel;
+        private IUserBusinessModel userModel;
         private UserListPresenter userListPresenter;
         private UserAddPresenter userAddPresenter;
 
@@ -23,24 +23,11 @@ namespace MVP.Example.WinForm
         {
             InitializeComponent();
 
-            userModel = new UserModel();
+            userModel = new UserBusinessModel();
 
             userListPresenter =  new UserListPresenter(userModel, this.userList1);
 
-            userAddPresenter = new UserAddPresenter(userModel, this.userAdd1);
-
-            userAddPresenter.RefreshViewEvent += UserAddPresenter_RefreshViewEvent;
-            userListPresenter.RefreshViewEvent += UserListPresenter_RefreshViewEvent;
-        }
-
-        private void UserAddPresenter_RefreshViewEvent(object sender, PresenterRereshViewEventArgument e)
-        {
-            this.userList1.ShowUser(e.Data as User);
-        }
-
-        private void UserListPresenter_RefreshViewEvent(object sender, PresenterRereshViewEventArgument e)
-        {
-            ;
+            userAddPresenter = new UserAddPresenter(userModel, this.userAdd1,this.userList1);
         }
     }
 }

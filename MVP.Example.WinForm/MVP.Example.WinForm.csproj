@@ -56,8 +56,8 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Entity\User.cs" />
-    <Compile Include="Model\IUserModel.cs" />
-    <Compile Include="Model\UserModel.cs" />
+    <Compile Include="Model\IUserBusinessModel.cs" />
+    <Compile Include="Model\UserBusinessModel.cs" />
     <Compile Include="Presenter\IPresenter.cs" />
     <Compile Include="Presenter\IUserAddPresenter.cs" />
     <Compile Include="Presenter\IUserListPresenter.cs" />

@@ -4,7 +4,7 @@ using MVP.Example.WinForm.Model.Entity;
 
 namespace MVP.Example.WinForm.Model
 {
-    public class UserModel:IUserModel
+    public class UserBusinessModel:IUserBusinessModel
     {
         private readonly List<User> _users = new List<User>();
 

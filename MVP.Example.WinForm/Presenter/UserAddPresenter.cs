@@ -10,30 +10,27 @@ namespace MVP.Example.WinForm.Presenter
 {
     public class UserAddPresenter : IUserAddPresenter
     {
-        private readonly IUserModel model;
-        private readonly IUserAddView view;
+        private readonly IUserBusinessModel model;
+        private readonly IUserAddView userAddView;
+        private readonly IUserListView userListView;
 
-        public UserAddPresenter(IUserModel model, IUserAddView view)
+        public UserAddPresenter(IUserBusinessModel model, IUserAddView userAddView,IUserListView userListView)
         {
             this.model = model;
-            this.view = view;
-            view.Presenter = this;
+            this.userAddView = userAddView;
+            this.userListView = userListView;
+            userAddView.Presenter = this;
         }
-
-        public event RefreshViewHandler RefreshViewEvent;
 
         public void AddUser(User user)
         {
             model.AddItem(user);
-            RefreshViewEvent(this,new PresenterRereshViewEventArgument()
-            {
-                Data = user
-            });
+            OnAddUserFinish(this, user);
         }
 
-        public void ResponseNotification(string message)
+        public void OnAddUserFinish(IUserAddPresenter sender, User user)
         {
-            throw new NotImplementedException();
+            userListView.ShowUser(user);
         }
     }
 }
